@@ -9,7 +9,7 @@ class Person
     self.partner = person
     person.partner = self
   
-  
+  class PartnerError < StandardError
   
 end 
 
@@ -21,4 +21,3 @@ puts beyonce.name
 
 
 
-class PartnerError < StandardError
